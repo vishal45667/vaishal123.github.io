@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+bodY{
+height: 100vh;
+background: url("HD-wallpaper-background-solid-color.jpg") no-repeat center/ cover;
+}
+.container{
+    position: relative;
+    height: 100%;
+    border-radius: 30px;
+    backdrop-filter: blur(30x);
+
+
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+font-size: 18px;
+color: white;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+border-bottom: 2px solid transparent;
+transition: 5s;
+}
+.navabar a:hover,
+.navbar a.active{
+    border-color: white;
+
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    gap:50px;
+    padding: 50px 5% 0;
+    color: white;
+}
+.home-detail h1{
+    font-size: 50px;
+    line-height: 1i;
+}
+.home-detail h2{
+    font-size: 32px;
+}
+.home-detail p{
+    margin: 10px 0 20px;
+}
+.home-detail .download-social{
+    display: flex;
+    align-items: center;
+}
+.bin{
+display: inline-block;    
+padding: 10px 30px;
+background: white;
+border: 2px solid white;
+border-radius: 40px;
+box-shadow: 0 0 10px white;
+color: black;
+text-decoration: none;
+font-weight: 500;
+}
+.btn:hover{
+    background: transparent;
+    box-shadow: none;
+    color: white;
+}
+.home-detail .social-icons{
+    margin: 20px;
+}
+.home-detail .social-icons a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: .5s; 
+}
+.home-detail .social-icons a:hover{
+    background: white;
+    box-shadow: 0 0 10px white;
+    color: #333;
+}
+
+.home-img .img-box{
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+    overflow: hidden;
+}
+.home-img .img-box img{
+    position: absolute;
+    top: 30px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    background-color: blueviolet;
+}
+  </style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+     <a href="#"class="logo">portfolio.</a>
+     <nav class="navbar">
+            
+ <a href="#" class="active">home</a>
+<a href="#">About</a></li>
+<a href="#">Porotfolio</a></li>
+ <a href="#">Service</a></li>
+<a href="#">Contant</a>
+            </nav>
+        </header>
+    
+        <section class="home">
+            <div class="home-detail">
+             <h1>VISHAL PHUKE</h1>
+            <h2>WEB  DESIGN</h2>
+             <h3>About me</h3>
+            <p>my self vishal vitthalrao phuke i am pursuing BCA TY degree form Nalanda college  i am en enthusiastic self motivated reliable responsible and hard working person i situations  i am able to work well both in a tearn environment as well as using own initiative work well under pressure and strict deadlines</p>
+             <div class="download-social">
+             <a href="#"class="btn">download cv</a>
+             <div class="social-icons">
+           <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+                    </div>
+                    </div>
+                </div>
+            
+              <div class="home-img">
+              <div class="img-box">
+              
+             <img src="images (1).jpg">
+        </section>
+    </div>
+    </div>
+    
+</body>
+</html>
